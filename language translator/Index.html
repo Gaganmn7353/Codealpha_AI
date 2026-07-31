@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Language Translator</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🌍 Language Translator</h1>
+
+<textarea
+id="inputText"
+placeholder="Enter text here..."></textarea>
+
+<div class="languages">
+
+<select id="fromLang">
+
+<option value="en">English</option>
+
+<option value="hi">Hindi</option>
+
+<option value="fr">French</option>
+
+<option value="es">Spanish</option>
+
+<option value="de">German</option>
+
+<option value="kn">Kannada</option>
+
+<option value="ta">Tamil</option>
+
+<option value="te">Telugu</option>
+
+</select>
+
+<i class="fas fa-arrow-right"></i>
+
+<select id="toLang">
+
+<option value="hi">Hindi</option>
+
+<option value="en">English</option>
+
+<option value="fr">French</option>
+
+<option value="es">Spanish</option>
+
+<option value="de">German</option>
+
+<option value="kn">Kannada</option>
+
+<option value="ta">Tamil</option>
+
+<option value="te">Telugu</option>
+
+</select>
+
+</div>
+
+<button id="translateBtn">
+Translate
+</button>
+
+<textarea
+id="outputText"
+readonly
+placeholder="Translation appears here..."></textarea>
+
+<div class="buttons">
+
+<button id="copyBtn">
+<i class="fa-solid fa-copy"></i> Copy
+</button>
+
+<button id="speakBtn">
+<i class="fa-solid fa-volume-high"></i> Speak
+</button>
+
+<button id="clearBtn">
+<i class="fa-solid fa-trash"></i> Clear
+</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

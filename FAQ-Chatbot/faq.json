@@ -1,0 +1,26 @@
+[
+  {
+    "question":"What are your working hours?",
+    "answer":"We are open from 9 AM to 6 PM."
+  },
+  {
+    "question":"How can I contact support?",
+    "answer":"Email support@example.com or call +91-9876543210."
+  },
+  {
+    "question":"Where are you located?",
+    "answer":"We are located in Bengaluru, Karnataka."
+  },
+  {
+    "question":"Do you provide refunds?",
+    "answer":"Yes. Refunds are available within 7 days."
+  },
+  {
+    "question":"How do I create an account?",
+    "answer":"Click the Sign Up button and fill in your details."
+  },
+  {
+    "question":"Can I reset my password?",
+    "answer":"Yes. Use the Forgot Password option on the login page."
+  }
+]
